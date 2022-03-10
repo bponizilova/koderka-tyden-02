@@ -6,6 +6,7 @@ html { box-sizing: border-box; }
 /* spolecne */
 body {
 	font: 18px/1.5 sans-serif;
+
 }
 
 
@@ -15,6 +16,10 @@ body {
 	viditelná u horního okraje okna prohlížeče
 	a obsah stránky skroloval pod ní
 	*/
+	position:fixed;
+	width:100%;
+	left: 0;
+	top: 0;
 
 }
 
@@ -24,7 +29,10 @@ body {
 	viditelná u dolního okraje okna prohlížeče
 	a obsah stránky skroloval pod ní
 	*/
-
+	position:fixed;
+	width:100%;
+	left: 0;
+	bottom: 0;
 
 }
 
@@ -33,7 +41,8 @@ body {
 	přidej CSS, aby obsah nahoře a dole na stránce
 	nebyl zakrytý hlavičkou a patičkou
 	*/
-
+	padding-top: 100px;
+	padding-bottom: 70px;
 
 }
 
